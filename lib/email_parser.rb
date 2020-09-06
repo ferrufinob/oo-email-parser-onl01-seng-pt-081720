@@ -11,7 +11,7 @@ class EmailAddressParser
  end
  
  def parse
-   @csv_emails 
+   binding.pry
  end
  
 end
