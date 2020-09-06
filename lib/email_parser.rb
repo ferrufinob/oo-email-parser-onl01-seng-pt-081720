@@ -11,7 +11,7 @@ class EmailAddressParser
  end
  
  def parse
-   @csv_emails = self.new
+   @csv_emails = []
  end
  
 end
