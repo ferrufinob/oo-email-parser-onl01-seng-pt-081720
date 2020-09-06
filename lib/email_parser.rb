@@ -6,6 +6,6 @@ class EmailAddressParser
 @@all = []
 def parse
  parser = self.new
- @@all << parser
+ @@all << parser.split(" , ")
  end
 end
