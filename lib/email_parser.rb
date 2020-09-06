@@ -5,4 +5,5 @@
 class EmailAddressParser
 @@all = []
  parser = self.new
+ @@all << parser
 end
