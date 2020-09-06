@@ -15,6 +15,7 @@ class EmailAddressParser
    csv_emails.split.collect do |address|
      address.split(",")
      binding.pry
+   end
    
  end
  
