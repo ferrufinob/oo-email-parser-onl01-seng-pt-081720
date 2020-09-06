@@ -9,4 +9,5 @@ class EmailAddressParser
  def initialize
    @cvs_emails = cvs_emails
  end
+ 
 end
