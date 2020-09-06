@@ -3,9 +3,5 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 class EmailAddressParser
-@@all = []
-def parse
- parser = self.new
- @@all << parser.split(" , ")
- end
+binding.pry
 end
