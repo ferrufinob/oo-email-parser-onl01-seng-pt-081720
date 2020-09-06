@@ -15,7 +15,7 @@ class EmailAddressParser
    csv_emails.split.collect do |address|
      address.split(",")
    end
-   csv_emails.flatten!
+   csv_emails.unique.flatten
    
  end
  
