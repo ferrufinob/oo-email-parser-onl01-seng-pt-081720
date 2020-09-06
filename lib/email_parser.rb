@@ -4,5 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-
+def self.parse(data)
+      tree = @@parser.parse(data)
+    end
 end
